@@ -11,14 +11,15 @@ const SERVER_URL = 'http://localhost:8000';
 
 type CommentResource = { 
   id: string,
+  author_id: string,
   parent_id?: string,
   content: string,
 };
 type VideoResource = { 
   video_id: string,
   video_title: string,
-  comments: CommentResource[],
   video_thumbnail: string,
+  comments: CommentResource[],
 };
 
 
