@@ -59,6 +59,7 @@ type CommentSectionProps = {
   isLoaded: boolean,
   comments: CommentResource[],
 };
+
 const CommentSection = (props: CommentSectionProps) => {
     const { isLoaded, comments } = props;
     if (!isLoaded || comments.length == 0) {
@@ -76,9 +77,6 @@ const CommentSection = (props: CommentSectionProps) => {
       </View>
     );
 } 
-
-const findChildren = (parent, allComments) => 
-  allComments.filter((c) => c.parent_id === parent.id); 
 
 const styles = StyleSheet.create({
   container: {
