@@ -1,0 +1,43 @@
+{
+  "video_id": "1330",
+  "video_title": "How to Write Tests",
+  "thumbnail_url": "/data/video_thumbnail.webp",
+  "comments": [
+    {
+      "id": "10",
+      "parent_id": null,
+      "author_id": "quickman",
+      "content": "🙂   First comment!"
+    },
+    {
+      "id": "20",
+      "parent_id": "10",
+      "author_id": "responder540",
+      "content": "✋   reply to first!"
+    },
+    {
+      "id": "30",
+      "parent_id": null,
+      "author_id": "nerd87",
+      "content": "🤓   no, I am first!"
+    },
+    {
+      "id": "40",
+      "parent_id": null,
+      "author_id": "slowpoke",
+      "content": "😔   I am not first"
+    },
+    {
+      "id": "50",
+      "parent_id": "40",
+      "author_id": "robot",
+      "content": "🤖   user confirmed as not first"
+    },
+    {
+      "id": "60",
+      "parent_id": "50",
+      "author_id": "slowpoke",
+      "content": "😔   thanks, @robot"
+    }
+  ]
+}
